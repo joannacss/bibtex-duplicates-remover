@@ -1,0 +1,2 @@
+pybtex==0.24.0
+python-Levenshtein==0.12.2
