@@ -82,6 +82,6 @@ if __name__ == '__main__':
 
     # Print the selected entries
     for entry in selected_entries:
-        if 'doi' in entry.fields:
-            print(entry.key, entry.fields["doi"], sep='\t')
-        # print(format_bibtex_entry(entry))
+        # if 'doi' in entry.fields:
+        #     print(entry.key, entry.fields["doi"], sep='\t')
+        print(format_bibtex_entry(entry))

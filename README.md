@@ -7,14 +7,14 @@ Several tools for working with BibTeX files.
 
 ## Usage
 
-### Removing duplicated entries (find_duplicates.py)
+### Removing duplicated entries from the BibTex file (find_duplicates.py)
 
 ```
 pipenv install -r requirements.txt
 pipenv run python3.9 find_duplicates.py file1.bib file2.bib ...
 ```
 
-### Filtering entries (filter_entries.py)
+### Filtering entries by Key in a BibTex file (filter_entries.py)
 
 ```
 pipenv install -r requirements.txt
